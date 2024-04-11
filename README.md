@@ -57,4 +57,7 @@ Com base no valor lido do LDR:
 ## Considerações Finais
 Este projeto oferece uma solução prática e eficiente para controlar a iluminação de um ambiente de forma automatizada, adaptando-se às condições de luminosidade detectadas pelo fotoresistor. Além disso, a inclusão do buzzer proporciona um meio adicional de alerta, aumentando a utilidade e a aplicabilidade do sistema. Ao seguir este guia, os entusiastas e iniciantes em eletrônica poderão criar facilmente seu próprio sistema de controle de luminosidade e alerta sonoro utilizando um Arduino e componentes acessíveis.
 
- 
+ ## Projeto desenvolvido por 
+ Gabriel Miranda - RM: 559102
+ Kheyla Thais - RM: 558434
+ @
