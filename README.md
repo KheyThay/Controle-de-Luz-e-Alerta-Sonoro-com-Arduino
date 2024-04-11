@@ -4,7 +4,7 @@ Este projeto apresenta um sistema inteligente de controle de luminosidade utiliz
 
 
 ## Introdução:
-Este projeto apresenta um sistema versátil e inteligente de controle de luminosidade, utilizando um Arduino Uno e componentes eletrônicos simples. O dispositivo é capaz de ajustar a intensidade luminosa de acordo com as condições do ambiente, além de emitir um alerta sonoro em situações específicas. Esta descrição detalhada abordará desde os componentes utilizados até a implementação do código, proporcionando uma compreensão abrangente do projeto.
+Este projeto apresenta um sistema versátil e inteligente de controle de luminosidade, utilizando um Arduino Uno e componentes eletrônicos simples. O dispositivo é capaz de ajustar a intensidade luminosa de acordo com as condições do ambiente, além de emitir um alerta sonoro em situações específicas.
 
 ## Componentes Utilizados
 - Arduino Uno
@@ -26,8 +26,17 @@ Cada LED é conectado em série com um resistor para limitar a corrente e proteg
 
 4. Conexão do Buzzer: O buzzer é conectado ao pino digital 8.
 5. Montagem na Protoboard: Os componentes são distribuídos e conectados na protoboard conforme o esquema descrito acima.
+   
+[Modo de montagem no protoboard (Placa de ensaio)]
+
+https://drive.google.com/file/d/1D49o9TUhnsq-6IyCPwDdDtqyQs4JEhLO/view?usp=sharing
 
 ## Funcionamento do Código
+
+código: 
+
+https://drive.google.com/drive/folders/1Pc0Pah0TaQ7mMdxdK9Qc4c20N-5B6Isu?usp=drive_link
+
 1. Setup():
 - Inicialização da comunicação serial com uma taxa de transmissão de 9600 bauds para comunicação com o computador.
 - Configuração dos pinos como entrada (para o LDR) e saída (para os LEDs e o buzzer).
@@ -35,9 +44,9 @@ Cada LED é conectado em série com um resistor para limitar a corrente e proteg
 2. Loop():
 - Leitura do valor analógico do LDR utilizando a função analogRead(), que retorna um valor entre 0 e 1023.
 Com base no valor lido do LDR:
-- Se a luminosidade for baixa (valorLDR < 750), apenas o LED verde é aceso.
-- Se for média (valorLDR entre 750 e 900), apenas o LED amarelo é aceso.
-- Se for alta (valorLDR >= 900), apenas o LED vermelho é aceso e o buzzer é ativado por 3 segundos, com pausas de 2 segundos entre cada ativação.
+- Se a luminosidade for baixa (valorLDR < 100), apenas o LED verde é aceso.
+- Se for média (valorLDR entre 100 e 150), apenas o LED amarelo é aceso.
+- Se for alta (valorLDR >= 150), apenas o LED vermelho é aceso e o buzzer é ativado por 3 segundos, com pausas de 2 segundos entre cada ativação.
 - Os valores lidos do LDR e as ações realizadas são exibidos no monitor serial para acompanhamento.
 
 4. Funções Auxiliares:
@@ -47,3 +56,5 @@ Com base no valor lido do LDR:
 
 ## Considerações Finais
 Este projeto oferece uma solução prática e eficiente para controlar a iluminação de um ambiente de forma automatizada, adaptando-se às condições de luminosidade detectadas pelo fotoresistor. Além disso, a inclusão do buzzer proporciona um meio adicional de alerta, aumentando a utilidade e a aplicabilidade do sistema. Ao seguir este guia, os entusiastas e iniciantes em eletrônica poderão criar facilmente seu próprio sistema de controle de luminosidade e alerta sonoro utilizando um Arduino e componentes acessíveis.
+
+ 
