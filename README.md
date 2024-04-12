@@ -31,6 +31,8 @@ Cada LED é conectado em série com um resistor para limitar a corrente e proteg
 
 https://drive.google.com/file/d/1D49o9TUhnsq-6IyCPwDdDtqyQs4JEhLO/view?usp=sharing
 
+https://www.tinkercad.com/things/iSrETKYsxLq-epic-lappi-turing/editel
+
 ## Funcionamento do Código
 
 código: 
