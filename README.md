@@ -17,7 +17,7 @@ Este projeto apresenta um sistema versátil e inteligente de controle de luminos
 
 
 ## Montagem do Circuito
-1. Conexão do Fotoresistor (LDR):Conexão do Fotoresistor (LDR): O terminal mais claro do LDR é conectado ao pino A0 do Arduino, enquanto o terminal mais escuro é conectado ao GND (terra) para formar um divisor de tensão.
+1. Conexão do Fotoresistor (LDR): O terminal mais claro do LDR é conectado ao pino A0 do Arduino, enquanto o terminal mais escuro é conectado ao GND (terra) para formar um divisor de tensão.
 
 2. Conexão dos LEDs: O LED verde é conectado ao pino digital 13.
 O LED amarelo é conectado ao pino digital 12.
