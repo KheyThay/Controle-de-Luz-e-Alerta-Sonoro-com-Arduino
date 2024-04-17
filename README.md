@@ -25,7 +25,7 @@ O LED vermelho é conectado ao pino digital 11.
 Cada LED é conectado em série com um resistor para limitar a corrente e proteger o LED.
 
 4. Conexão do Buzzer: O buzzer é conectado ao pino digital 8.
-5. Montagem na Protoboard: Os componentes são distribuídos e conectados na protoboard conforme o esquema descrito acima.
+5. Montagem na Protoboard: Os componentes são distribuídos e conectados na protoboard conforme o esquema descrito abaixo.
    
 [Modo de montagem no protoboard (Placa de ensaio)]
 
