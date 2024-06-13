@@ -29,15 +29,15 @@ Cada LED é conectado em série com um resistor para limitar a corrente e proteg
    
 [Modo de montagem no protoboard (Placa de ensaio)]
 
-https://drive.google.com/file/d/1D49o9TUhnsq-6IyCPwDdDtqyQs4JEhLO/view?usp=sharing
+[Drive](https://drive.google.com/file/d/1D49o9TUhnsq-6IyCPwDdDtqyQs4JEhLO/view?usp=sharing)
 
-https://www.tinkercad.com/things/iSrETKYsxLq-epic-lappi-turing/editel
+[Link do Tinkercad](https://www.tinkercad.com/things/bHVDOKTxMYA-sensor-de-luminosidade-usando-leds-buzzer-e-o-ldr/editel)
 
 ## Funcionamento do Código
 
 código: 
 
-https://drive.google.com/drive/folders/1Pc0Pah0TaQ7mMdxdK9Qc4c20N-5B6Isu?usp=drive_link
+[Drive](https://drive.google.com/drive/folders/1Pc0Pah0TaQ7mMdxdK9Qc4c20N-5B6Isu?usp=drive_link)
 
 1. Setup():
 - Inicialização da comunicação serial com uma taxa de transmissão de 9600 bauds para comunicação com o computador.
